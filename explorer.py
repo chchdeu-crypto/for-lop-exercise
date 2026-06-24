@@ -48,4 +48,8 @@ fruits=["appale","banana","cherry"]
 #     print(name)
 #mission 2
 topels=[(n,n**2) for n in range(1,6)  ]
-print(topels)
+# print(topels)
+#mission 3
+b=0
+for i in enumerate(topels,1):
+    print(i)
