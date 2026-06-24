@@ -54,5 +54,8 @@ topels=[(n,n**2) for n in range(1,6)  ]
 #     print(i)
 #mission 4
 matrix = [ mat for i in [[1,2], [3,4], [5,6]] for mat in i ]
-
 print(matrix)
+#mission 5
+words=["hallo","world","python"]
+new_words=[big.capitalize() for big in words]
+print(new_words)
