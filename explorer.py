@@ -53,5 +53,6 @@ topels=[(n,n**2) for n in range(1,6)  ]
 # for i in enumerate(topels,1):
 #     print(i)
 #mission 4
-matrix = [i for i in [[1,2]],[3,4],[5,6]]
+matrix = [ mat for i in [[1,2], [3,4], [5,6]] for mat in i ]
+
 print(matrix)
