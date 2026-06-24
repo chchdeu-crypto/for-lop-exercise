@@ -11,7 +11,12 @@ fruits=["appale","banana","cherry"]
 # for fruit in enumerate(fruits):
 #     print(fruit)
 #mission 5
-scores={"alpha":80,"bravo":95}
-for name in scores.items():
-    print(name)
-    
+# scores={"alpha":80,"bravo":95}
+# for score in scores.items():
+#     print(score)
+#mission 6
+numbers=[1,2,3,4,5,]
+sum=0
+for num in numbers:
+    sum+=num
+print(sum)  
