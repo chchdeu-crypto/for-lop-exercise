@@ -33,6 +33,9 @@ fruits=["appale","banana","cherry"]
 #     for num_1 in num:
 #         print(num_1)
 #mission 9
-numbers=[1,2,3,4,5,6,7,8,9,10]
-squares_num =[num**2 for num in numbers ]
-print(squares_num)
+# num numbers=[1,2,3,4,5,6,7,8,9,10]
+# squares_num=[num**2 for num in numbers ]
+# print(squares_num)
+#mission 10
+even_num=[even for even in range(0,21,2)]
+print(even_num)
