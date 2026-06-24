@@ -8,5 +8,10 @@ fruits=["appale","banana","cherry"]
 #mission 3
 # print(list(range(0,10,2)))
 #nission 4
-for fruit in enumerate(fruits):
-    print(fruit)
+# for fruit in enumerate(fruits):
+#     print(fruit)
+#mission 5
+scores={"alpha":80,"bravo":95}
+for name in scores.items():
+    print(name)
+    
