@@ -28,8 +28,11 @@ fruits=["appale","banana","cherry"]
 # for i in range(1,6):
 #     print(i)
 #mission 8
-matrix=[[1,2,3],[4,5,6]]
-for num in matrix:
-    for num_1 in num:
-        print(num_1)
-     
+# matrix=[[1,2,3],[4,5,6]]
+# for num in matrix:
+#     for num_1 in num:
+#         print(num_1)
+#mission 9
+numbers=[1,2,3,4,5,6,7,8,9,10]
+squares_num =[num**2 for num in numbers ]
+print(squares_num)
