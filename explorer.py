@@ -42,7 +42,10 @@ fruits=["appale","banana","cherry"]
 
 #part 2
 #mission 1
-numes=["alpha","bravo"]
-scoores=[80,95]
-for name in zip(numes, scoores):
-    print(name)
+# numes=["alpha","bravo"]
+# scoores=[80,95]
+# for name in zip(numes, scoores):
+#     print(name)
+#mission 2
+topels=[(n,n**2) for n in range(1,6)  ]
+print(topels)
