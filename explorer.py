@@ -21,10 +21,15 @@ fruits=["appale","banana","cherry"]
 #     sum+=num
 # print(sum)
 # misson 7
-i=0
-while i < 5:
-    i+=1
-    print(i)
-for i in range(1,6):
-    print(i)
-  
+# i=0
+# while i < 5:
+#     i+=1
+#     print(i)
+# for i in range(1,6):
+#     print(i)
+#mission 8
+matrix=[[1,2,3],[4,5,6]]
+for num in matrix:
+    for num_1 in num:
+        print(num_1)
+     
