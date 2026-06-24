@@ -37,5 +37,12 @@ fruits=["appale","banana","cherry"]
 # squares_num=[num**2 for num in numbers ]
 # print(squares_num)
 #mission 10
-even_num=[even for even in range(0,21,2)]
-print(even_num)
+# even_num=[even for even in range(0,21,2)]
+# print(even_num)
+
+#part 2
+#mission 1
+numes=["alpha","bravo"]
+scoores=[80,95]
+for name in zip(numes, scoores):
+    print(name)
