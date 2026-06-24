@@ -50,6 +50,8 @@ fruits=["appale","banana","cherry"]
 topels=[(n,n**2) for n in range(1,6)  ]
 # print(topels)
 #mission 3
-b=0
-for i in enumerate(topels,1):
-    print(i)
+# for i in enumerate(topels,1):
+#     print(i)
+#mission 4
+matrix = [i for i in [[1,2]],[3,4],[5,6]]
+print(matrix)
